@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* logo和导航 */
+.headerCnt {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.nav {
+    float: right;
+    margin: 16px 0;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+    color: #ffffff;
+    border-right: 1px solid black;
+}
+
+.nav li:hover {
+    color: green;
+}
+
+.header img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+/* 轮播图 */
+
+.banner {
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+    width: 100%;
+}
+
+/* 商品列表 */
+.goodListCnt {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.modelTitle h1 {
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.modelTitle .title2 {
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.modelTitle .title3 {
+    text-align: center;
+    color: #757575;
+}
+
+/* 商品 */
+.listBox {
+    padding-top: 20px;
+}
+
+.listBox .goodItem {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    /* 避免超出 */
+    box-sizing: border-box;
+}
+
+.goodItem img {
+    width: 100%;
+}
+
+.goodItem h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.goodItem p {
+    color: #757575;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 10px;
+}
+
+/* 店铺展示 */
+.shopCnt {
+    margin-top: 20px;
+}
+
+.shopCnt .shopBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shop {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.shopItem1 {
+    width: 50%;
+    height: 100%;
+
+    float: left;
+    position: relative;
+}
+
+.shopItem2 {
+    width: 50%;
+    height: 50%;
+
+    float: left;
+    position: relative;
+}
+
+.shopItem3 {
+    width: 25%;
+    height: 50%;
+
+    float: left;
+    position: relative;
+}
+
+.shopItem4 {
+    width: 25%;
+    height: 50%;
+
+    float: left;
+    position: relative;
+}
+
+.shopImg {
+    width: 100%;
+    height: 100%;
+}
+
+.shopName {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 关于我们 */
+.aboutUsCnt {
+    margin-top: 50px;
+}
+
+.aboutBox {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.about img {
+    float: left;
+    width: 65%;
+}
+
+.about p {
+    padding-left: 20px;
+    width: 35%;
+    float: left;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+/* 页尾 */
+
+.footerCnt {
+    background-color: #292929;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footerBox {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footerLeft p {
+    color: #dddddd;
+    margin-bottom: 10px;
+}
+
+.footerLeft {
+    float: left;
+    width: 27%;
+    height: 124px;
+    border-right: 1px solid #aaaaaa;
+    box-sizing: border-box;
+}
+
+.footerCenter {
+    float: left;
+    width: 46%;
+    height: 124px;
+    text-align: center;
+    border-right: 1px solid #aaaaaa;
+    box-sizing: border-box;
+}
+
+.footerRight {
+    width: 27%;
+    float: left;
+    text-align: right;
+    height: 124px;
+}
+
+.footerCenter p {
+    color: #dddddd;
+}
+
+.footerRight p {
+    color: #dddddd;
+}
+
+.footerTop {
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 10px;
+}
+
+.footerBottom p {
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+/* 侧边栏 */
+.sidebarCnt {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 50px;
+    background-color: #292929;
+}
+
+.sidebarItem {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #666666;
+    box-sizing: border-box;
+}
+
+.sidebarItem img {
+    margin-top: 8px;
+}
