@@ -5,168 +5,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>陈晓辉Css_Test01</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- 1.网站logo和导航栏 -->
-    <div class="headerCnt">
+    <!-- 1.logo和导航条 -->
+    <div class="headerFull">
         <div class="header">
-            <img src="image/logo.png" alt="">
-            <ul class="nav">
+            <img src="image/logo.png" alt="图片找不到了">
+            <ul>
                 <li>首页</li>
                 <li>产品</li>
                 <li>关于我们</li>
             </ul>
         </div>
     </div>
-
     <!-- 2.轮播图 -->
     <div class="swiper">
-        <img class="banner" src="image/banner.jpg" />
+        <img src="image/banner.jpg" alt="图片找不到了">
     </div>
-
     <!-- 3.商品列表 -->
-    <div class="goodListCnt">
-        <div class="goodListBox">
-            <!-- 模块标题 -->
-            <div class="modelTitle">
-                <!-- 标题 -->
-                <h1>商品列表</h1>
-                <p class="title2">――PRODUCT――</p>
-                <p class="title3">品好茶 / 找新鲜 / 口渴了 / 寻好茶 / 尝口感</p>
-            </div>
-            <!-- 列表 -->
-            <div class="listBox clear">
-                <!-- 列表项 -->
-                <div class="goodItem">
-                    <img src="image/good1.jpg" />
-                    <h2>红豆奶茶</h2>
-                    <p>捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</p>
-                </div>
-                <!-- 列表项 -->
-                <div class="goodItem">
-                    <img src="image/good2.jpg" />
-                    <h2>红豆奶茶</h2>
-                    <p>捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</p>
-                </div>
-                <!-- 列表项 -->
-                <div class="goodItem">
-                    <img src="image/good3.jpg" />
-                    <h2>红豆奶茶</h2>
-                    <p>捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</p>
-                </div>
-                <!-- 列表项 -->
-                <div class="goodItem">
-                    <img src="image/good1.jpg" />
-                    <h2>红豆奶茶</h2>
-                    <p>捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</p>
-                </div>
-            </div>
+    <div class="goodsList clear">
+        <!-- 标题 -->
+        <div class="modelTitle">
+            <h1>商品列表</h1>
+            <p class="title2">――PRODUCT――</p>
+            <p class="title3">
+                品好茶 / 找新鲜 / 口渴了 / 寻好茶 / 尝口感
+            </p>
+        </div>
+        <!-- 商品 -->
+        <div class="goodsBox">
+            <img src="image/good1.jpg" alt="图片找不到了">
+            <div class="goodsTitle">红豆奶茶</div>
+            <div class="goodsDesc">捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</div>
+        </div>
+        <div class="goodsBox">
+            <img src="image/good2.jpg" alt="图片找不到了">
+            <div class="goodsTitle">红豆奶茶</div>
+            <div class="goodsDesc">捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</div>
+        </div>
+        <div class="goodsBox">
+            <img src="image/good3.jpg" alt="图片找不到了">
+            <div class="goodsTitle">红豆奶茶</div>
+            <div class="goodsDesc">捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</div>
+        </div>
+        <div class="goodsBox">
+            <img src="image/good1.jpg" alt="图片找不到了">
+            <div class="goodsTitle">红豆奶茶</div>
+            <div class="goodsDesc">捧在手里的那杯温暖的奶茶，虽然没有红酒的高贵典雅，没有咖啡的精致摩登，</div>
         </div>
     </div>
-
     <!-- 4.店铺展示 -->
-    <div class="shopCnt">
-        <div class="shopBox">
-            <!-- 模块标题 -->
-            <div class="modelTitle">
-                <!-- 标题 -->
-                <h1>店铺展示</h1>
-                <p class="title2">――THE STORE――</p>
+    <div class="storeBox clear">
+        <div class="modelTitle">
+            <h1>店铺展示</h1>
+            <p class="title2">――THE STORE――</p>
+        </div>
+        <div class="storeList">
+            <div class="storeItem storeItem1">
+                <img src="image/shop1.jpg" />
+                <h2 class="shopName">XXXXX店铺</h2>
             </div>
-
-            <!-- 店铺 -->
-            <div class="shop clear">
-                <div class="shopItem1">
-                    <img class="shopImg" src="image/shop1.jpg" />
-                    <h2 class="shopName">XXXXX店铺</h2>
-                </div>
-                <div class="shopItem2">
-                    <img class="shopImg" src="image/shop2.jpg" />
-                    <h2 class="shopName">XXXXX店铺</h2>
-                </div>
-                <div class="shopItem3">
-                    <img class="shopImg" src="image/shop3.jpg" />
-                    <h2 class="shopName">XXXXX店铺</h2>
-                </div>
-                <div class="shopItem4">
-                    <img class="shopImg" src="image/shop4.jpg" />
-                </div>
+            <div class="storeItem storeItem2">
+                <img src="image/shop2.jpg" />
+                <h2 class="shopName">XXXXX店铺</h2>
+            </div>
+            <div class="storeItem storeItem3">
+                <img src="image/shop3.jpg" />
+                <h2 class="shopName">XXXXX店铺</h2>
+            </div>
+            <div class="storeItem storeItem4">
+                <img src="image/shop4.jpg" />
             </div>
         </div>
     </div>
-
     <!-- 5.关于我们 -->
-    <div class="aboutUsCnt">
-        <div class="aboutBox">
-            <!-- 模块标题 -->
-            <div class="modelTitle">
-                <!-- 标题 -->
-                <h1>关于我们</h1>
-                <p class="title2">――ABOUT US――</p>
-            </div>
+    <div class="aboutMy">
+        <!-- 模块标题 -->
+        <div class="modelTitle">
+            <h1>关于我们</h1>
+            <p class="title2">――ABOUT US――</p>
+        </div>
 
-            <div class="about clear">
-                <img src="image/about.jpg" />
-                <p>你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，</p>
-            </div>
+        <div class="about clear">
+            <img src="image/about.jpg" />
+            <p>你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，你好，这是一段文字，</p>
         </div>
     </div>
-
-    <!-- 6.页尾 -->
-    <div class="footerCnt">
-        <div class="footerBox">
-            <!-- 上半部分 -->
+    <!-- 6.页脚 -->
+    <div class="footerFull">
+        <div class="footer">
             <div class="footerTop clear">
-                <!-- 左 -->
-                <div class="footerLeft">
+                <div class="left">
                     <p>XXXX有限责任公司</p>
-                    <div class="footerLeftGroup">
+                    <div class="imgGroup">
                         <img src="image/icon.png" />
                         <img src="image/icon.png" />
                         <img src="image/icon.png" />
                     </div>
                 </div>
-                <!-- 中 -->
-                <div class="footerCenter">
+                <div class="center">
                     <p>地址：江苏省南京市栖霞区羊山北路1号</p>
                     <p>电话：025-84640056</p>
                     <p>网址：http://www.baidu.com</p>
                     <p>邮箱：123456@qq.com</p>
                 </div>
-                <!-- 右 -->
-                <div class="footerRight">
+                <div class="right">
                     <p>关注微信公众号</p>
                     <img src="image/eq.png" />
                 </div>
             </div>
-            <!-- 下半部分 -->
-            <div class="footerBottom">
+            <div class="footerBot">
                 <p>XXXX有限责任公司 版权所有</p>
             </div>
         </div>
-
-        <!-- 7.侧边栏 -->
-        <div class="sidebarCnt">
-            <!-- QQ -->
-            <div class="sidebarItem">
-                <img src="image/weibo.png" />
-            </div>
-            <!-- weibo -->
-            <div class="sidebarItem">
-                <img src="image/weibo.png" />
-            </div>
-            <!-- totop -->
-            <div class="sidebarItem">
-                <img src="image/weibo.png" />
-            </div>
+    </div>
+    <!-- 7.侧边栏 -->
+    <div class="siderBar">
+        <div class="siderBarItem">
+            <img src="image/weibo.png" />
+        </div>
+        <div class="siderBarItem">
+            <img src="image/weibo.png" />
+        </div>
+        <div class="siderBarItem">
+            <img src="image/weibo.png" />
         </div>
     </div>
-
-
 </body>
 
 </html>
